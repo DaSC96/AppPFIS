@@ -92,6 +92,12 @@ public class Anagrams extends JFrame {
         Dimension frameSize = getSize();
         setLocation(new Point((screenSize.width - frameSize.width) / 2,
                               (screenSize.height - frameSize.width) / 2));
+        
+        nextTrial.setText("Siguiente");
+        nextTrial.setToolTipText("Prueba otra palabra");
+        guessLabel.setText("Tu respuesta:");
+        guessButton.setText("Corregir");
+        fileMenu.setText("Archivo");
     }
     
     /** This method is called from within the constructor to
