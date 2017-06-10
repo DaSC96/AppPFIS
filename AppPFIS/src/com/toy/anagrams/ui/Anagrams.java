@@ -98,6 +98,10 @@ public class Anagrams extends JFrame {
         guessLabel.setText("Tu respuesta:");
         guessButton.setText("Corregir");
         fileMenu.setText("Archivo");
+        guessButton.setToolTipText("Comprueba la palabra");
+        aboutMenuItem.setText("Acerca de Anagramas");
+        exitMenuItem.setText("Salir");
+        exitMenuItem.setToolTipText("Salir del programa");
     }
     
     /** This method is called from within the constructor to
