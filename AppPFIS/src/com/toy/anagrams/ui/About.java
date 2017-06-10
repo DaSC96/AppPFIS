@@ -54,6 +54,9 @@ public class About extends JDialog {
         int x = Math.max(0, parentBounds.x + (parentBounds.width - size.width) / 2);
         int y = Math.max(0, parentBounds.y + (parentBounds.height - size.height) / 2);
         setLocation(new Point(x, y));
+        
+        setTitle("Acerca de Anagrams");
+        closeButton.setText("Cerrar");
     }
 
     /** This method is called from within the constructor to
